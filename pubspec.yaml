@@ -1,1 +1,48 @@
+name: offline_chat
+description: Offline chat application using Nearby Connections.
 
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  provider: ^6.1.2
+
+  nearby_connections: ^4.3.0
+
+  permission_handler: ^12.0.0
+
+  shared_preferences: ^2.3.2
+
+  uuid: ^4.5.1
+
+  path_provider: ^2.1.4
+
+  image_picker: ^1.1.2
+
+  file_picker: ^8.1.2
+
+  encrypt: ^5.0.3
+
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
